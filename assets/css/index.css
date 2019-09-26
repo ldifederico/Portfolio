@@ -41,8 +41,8 @@ h1 {
     margin-left: 10%;
     width: 35%;
     text-align: center;
-    font-size: 200%;
-    font-family:'Verdana';
+    font-size: 3vw;
+    font-family:'Nunito Sans';
     color: #ffffff;
     background: #5c87c0;
     height: 100%;
@@ -56,8 +56,8 @@ h2 {
     justify-content: center;
     margin-top: 5px;
     color: slategray;
-    font-family: 'Geneva';
-    font-size: 110%;
+    font-family: 'Nunito';
+    font-size: 1.5vw;
     border-right: 1px solid lightgray;
     padding: 1%;
     height: 30%;
@@ -90,9 +90,9 @@ h2 {
 
 h3 {
     float:left;
-    font-family: 'Geneva';
+    font-family: 'Nunito Sans';
     color: #5c87c0;
-    font-size: 26px;
+    font-size: 2vw;
     text-align: center;
 }
 
@@ -111,9 +111,9 @@ p {
     align-content: normal;
     text-align: center;
     padding: 10px;
-    font-family: 'Geneva';
+    font-family: 'Nunito';
     color: #777777;
-    font-size: 24px;
+    font-size: 1.75vw;
 }
 
 .footer {
@@ -122,7 +122,8 @@ p {
     height: 8%;
     width: 100vw;
     text-align: center;
-    font-size: 10px;
+    font-size: 0.75vw;
+    font-family: 'Nunito Sans';
     color: #ffffff;
     background: #666666; 
     border-top: 8px solid #5c87c0;
