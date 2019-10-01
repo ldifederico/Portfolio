@@ -13,8 +13,11 @@ Close-Up Photo of a Soccer Ball Photo by rawpixel.com from Pexels.
 Text on Shelf by Pixaby from Pexels.
 Cantuaria, Bruno. Corks in Bottles from https://www.canva.com/photos/MADGyaFeoeE-corks-in-bottles/.
 
+<<<<<<< HEAD
 In addition, skelly's Bootstrap 4 Responsive Card Deck was used to create a responsive card deck on Bootstrap. The code is located at, http://codeply.com/go/nIB6oSbv6q.
 
+=======
+>>>>>>> 4ba6923300bc4761778cfaf152fb18f40b632dd5
 License
 
 Licensed under the MIT license.
