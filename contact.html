@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 </head>
 <body>
    
    <div class="content">
-       <div id="header">
-            <h1>
-                Linda Di Federico
-            </h1> 
-
-            <h2>
-                <a href="./portfolio.html">Portfolio</a>
-            </h2>
-
-            <h2>
-                <a href="./contact.html">Contact</a>
-            </h2>
-
-            <h2>
-                <a href="./index.html">About</a>
-            </h2>
+        <div id="header">
+            <h1>Linda Di Federico<span class="badge badge-secondary"></span></h1>
+    
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
 
         <div id="contact">
@@ -32,29 +32,20 @@
 
                 <hr>
 
-                <form action="mailto.difedericolinda@gmail.com">
-                    <h4>Name:</h4>
-                                        
-                    <input type="text" name="name" value="John Smith">
-                    
-                    <br>
-                    
-                    <h4>E-mail:</h4>
-                    
-                    <input type="text" name="email" value="example@gmail.com">
-                    
-                    <br>
-                   
-                    <h4>Message:</h4>
-                                        
-                    <input type="text" name="message" value=" ">
-                    
-                    <br>
-                    
-                    <br>
-
-                    <input type="submit" value="Submit">
-                  </form> 
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
             </div>
         </div>
 

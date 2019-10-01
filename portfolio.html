@@ -3,61 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="./assets/css/portfolio.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
     <title>Portfolio</title>
 </head>
 <body>
    
-   <div class="content">
-       <div id="header">
-            <h1>
-                Linda Di Federico
-            </h1> 
+  <div class="content">
+    <div id="header">
+      <h1>Linda Di Federico<span class="badge badge-secondary"></span></h1>
 
-            <h2>
-                <a href="./portfolio.html">Portfolio</a>
-            </h2>
-    
-            <h2>
-                <a href="./contact.html">Contact</a>
-            </h2>
-    
-            <h2>
-                <a href="./index.html">About</a>
-             </h2>
-        </div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
 
-        <div id="portfolio">
-            <div id="box">
-                <h3>Portfolio</h3>
+    <div id="portfolio">
+      <div id="box">
+        <h3>Portfolio</h3>
 
-                <hr>
-                
-                <div class="gallery">
-                    <img src="../ldifederico/assets/images/iSommelier.jpg" ⁨alt="iSommelier" width="170" height="170">                        </a>
-                    <div class="desc">iSommelier</div>
-                </div>
-                      
-                <div class="gallery">
-                    <img src="../ldifederico/assets/images/guideFrankie.jpg" ⁨alt="Guide Frankie" width="170" height="170">    
-                    <div class="desc">Guide Frankie</div>
-                </div>
-                      
-                <div class="gallery">
-                    <img src="../ldifederico/assets/images/UEFAwomen.jpg" ⁨alt="Women's UEFA" width="170" height="170">
-                    <div class="desc">Women's UEFA</div>
-                </div>
-                      
-                <div class="gallery">
-                    <img src="../ldifederico/assets/images/trailFinder.jpg" ⁨alt="TrailFinder" width="170" height="170">
-                    <div class="desc">TrailFinder</div>
-                </div>
+        <hr>
+            
+        <div class="container">
+          <div class="card-deck">
+            <div class="card mb-4">
+              <img class="card-img-top img-fluid" src="../ldifederico/assets/images/iSommelier.jpg" alt="iSommelier">
+              <div class="card-body">
+                <h4 class="card-title">iSommelier</h4>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <img class="card-img-top img-fluid" src="../ldifederico/assets/images/puzzles.jpeg" alt="Puzzles">
+              <div class="card-body">
+                <h4 class="card-title">Puzzles</h4>
+              </div>
+            </div>
+            <div class="w-100 d-none d-sm-block d-md-none"></div>
+              <div class="card mb-4">
+               <img class="card-img-top img-fluid" src="../ldifederico/assets/images/trailFinder.jpg" alt="TrailFinder">
+                <div class="card-body">
+                <h4 class="card-title">TrailFinder</h4>
             </div>
         </div>
-
-        <footer class="footer">
-             Copyright &copy;
-        </footer>
-   </div>
-
+        <div class="w-100 d-none d-lg-block d-xl-none"></div>
+        <div class="card mb-4">
+          <img class="card-img-top img-fluid" src="../ldifederico/assets/images/UEFAwomen.jpg" alt="Women's UEFA">
+          <div class="card-body">
+            <h4 class="card-title">Women's UEFA</h4>
+          </div>
+        </div>
+      </div>
+    </div>  
+    
+    <footer class="footer">
+      Copyright &copy;
+   </footer>
+  </div>
 </body>
 </html>

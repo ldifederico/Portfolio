@@ -3,48 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
 </head>
 <body>
    
-   <div class="content">
-       <div id="header">
-            <h1>
-                Linda Di Federico
-            </h1> 
+    <div class="content">
+        <div id="header">
+            <h1>Linda Di Federico<span class="badge badge-secondary"></span></h1>
+         
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>    
 
-            <h2>
-                <a href="./portfolio.html">Portfolio</a>
-            </h2>
-    
-            <h2>
-                <a href="./contact.html">Contact</a>
-            </h2>
-    
-            <h2>
-                <a href="./index.html">About</a>
-             </h2>
-        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
 
-        <div id="about me">
-            <div id="box">
-                <h3>About Me</h3>
-
-                <hr>
-          
-                <p>
-                    <img src="./assets/images/profilePicture.jpeg" ⁨alt="Linda Di Federico" width="200" height="250">  
-                    
-                    My name is Linda. I live in downtown Toronto. I was educated and trained as a research scientist. Recently, I have opted to tackle problems from a tech-related perspective to allow remote work that can take place travelling or beside my dogs.
-                </p>
+                </div>
+                <div class="col-8">
+                    <div class="card-title">
+                      <h2>About Me</h2>
+                      <hr>
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <footer class="footer">
-             Copyright &copy;
-        </footer>
+            <div class="row">
+                <div class="col-1">
+
+                </div>
+                <div class="col-3">
+                    <img src="./assets/images/profilePicture.jpeg" class="card-img" alt="Linda Di Federico">
+                </div>
+                <div class="col-7">
+                    <p>
+                        My name is Linda. I live in downtown Toronto. I was educated and trained as a research scientist. Recently, I have opted to tackle problems from a tech-related perspective to allow remote work that can take place travelling or beside my dogs.
+                    </p>
+                </div>
+            </div>     
+        </div>
    </div>
+
+   <footer class="footer">
+        Copyright &copy;
+   </footer>
 
 </body>
 </html>
