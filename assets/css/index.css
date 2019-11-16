@@ -22,7 +22,6 @@ p {
 
 .about-the-author {
     background-color: #ffffff40;
-    padding: 1rem;
     width: max-content;
     height: min-content;
     border-radius: 25px;
@@ -145,7 +144,6 @@ p {
     border: 2px solid #f0ce9e;
     border-radius: 5000px;
     text-align: center;
-    width: 60%;
     background: #fefefe;
     display: -webkit-flex;
     display: -ms-flexbox;

@@ -13,8 +13,6 @@ p {
 
 .container {
   padding-top: 100px;
-  align-items: center;
-  justify-content: space-around;
 }
 
 .row {
@@ -29,6 +27,7 @@ p {
     border-radius: 25px;
     padding: 5%;
     background-color: #ffffff40;
+    margin: auto;
 }
 
 .contact-us-section .contact-us-section-left {
