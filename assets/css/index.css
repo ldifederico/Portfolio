@@ -1,78 +1,34 @@
 body {
     margin: 2%;
+    background-repeat: no-repeat;
 }
 
 h2 {
     padding-left: 3%;
 }
 
-.menu-hover-lines {
-    text-align: right;
-    text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing: 1px;
-    transition: all 0.35s ease;
-    margin: 2%;
-    justify-content: space-between;
-}
-  
-.menu-hover-lines p a {
-    padding: 0.75rem 0;
-    color: rgba(10, 10, 10, 0.5);
+.background {
+    top: 0;
+    left: 0;
     position: relative;
-    margin-left: 1rem;
-    text-decoration: none;
+    width: 100vw;
+    height: 100%;
 }
   
 p {
     position: relative;
     display: inline;
 }
-  
-.menu-hover-lines p:first-child a {
-    margin-left: 0;
-}
-  
-.menu-hover-lines p.active > a {
-    background-color: transparent;
-}
-  
-.menu-hover-lines a:before,
-.menu-hover-lines a::after {
-    height: 3px;
-    position: absolute;
-    content: '';
-    transition: all 0.35s ease;
-    background-color: #ffc107b0;
-    width: 0;
-}
-  
-.menu-hover-lines a::before {
-    top: 0;
-    left: 0;
-}
-  
-.menu-hover-lines a::after {
-    bottom: 0;
-    right: 0;
-}
-  
-.menu-hover-lines a:hover,
-.menu-hover-lines p.active > a {
-    color: #0a0a0a;
-    transition: all 0.35s ease;
-}
-  
-.menu-hover-lines a:hover::before,
-.menu-hover-lines .active a::before,
-.menu-hover-lines a:hover::after,
-.menu-hover-lines .active a::after {
-    width: 100%;
-}
 
 .about-the-author {
-    background-color: #ffc1074d;
+    background-color: #ffffff40;
     padding: 1rem;
+    width: max-content;
+    height: min-content;
+    border-radius: 25px;
+    padding: 5%;
+    margin: 10%;
+    margin-left: 15%;
 }
   
 .about-the-author .author-title {
@@ -80,8 +36,7 @@ p {
 }
   
 .social-footer {
-    padding: 1rem;
-    background: #fffefe;
+    padding: 2%;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -107,7 +62,7 @@ p {
     transition: color 0.3s ease-in;
 }
   
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 
 .rounded-social-buttons {
   text-align: center;
@@ -140,7 +95,7 @@ p {
 }
 
 .rounded-social-buttons .social-button.linkedin {
-  background: #ffc107b0;
+  background: #f0ce9e;
 }
 
 .rounded-social-buttons .social-button.linkedin:before {
@@ -149,13 +104,13 @@ p {
 }
 
 .rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
-  color: #ffc107b0;
+  color: #f0ce9e;
   background: #fefefe;
-  border-color: #ffc107b0;
+  border-color: #f0ce9e;
 }
 
 .rounded-social-buttons .social-button.google-plus {
-  background: #ffc107b0;
+  background: #f0ce9e;
 }
 
 .rounded-social-buttons .social-button.google-plus:before {
@@ -164,13 +119,13 @@ p {
 }
 
 .rounded-social-buttons .social-button.google-plus:hover, .rounded-social-buttons .social-button.google-plus:focus {
-  color: #ffc107b0;
+  color: #f0ce9e;
   background: #fefefe;
-  border-color: #ffc107b0;
+  border-color: #f0ce9e;
 }
 
 .rounded-social-buttons .social-button.github {
-  background: #ffc107b0;
+  background: #f0ce9e;
 }
 
 .rounded-social-buttons .social-button.github:before {
@@ -179,15 +134,15 @@ p {
 }
 
 .rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
-  color: #ffc107b0;
+  color: #f0ce9e;
   background: #fefefe;
-  border-color: #ffc107b0;
+  border-color: #f0ce9e;
 }
 
 .button-hover-reveal-wrapper {
     overflow: hidden;
     margin: 5%;
-    border: 2px solid #ffc107b0;
+    border: 2px solid #f0ce9e;
     border-radius: 5000px;
     text-align: center;
     width: 60%;
@@ -202,7 +157,7 @@ p {
   
 .button-hover-reveal-wrapper:hover {
     border: none;
-    background-color: #ffc107b0;
+    background-color: #f0ce9e;
     transition: background-color 0.5s ease;
 }
   
@@ -218,7 +173,7 @@ p {
   
 .button-hover-reveal-wrapper:hover label {
     display: none;
-    background-color: #ffc107b0;
+    background-color: #f0ce9e;
 }
   
 .button-hover-reveal-wrapper .button-hover-reveal {
@@ -230,13 +185,20 @@ p {
   
 .button-hover-reveal-wrapper label {
     padding: 16px;
-    color: #ffc107b0;
+    color: #f0ce9e;
     font-size: 16px;
     font-weight: bold;
 }
 
+.row {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
 footer {
-    color: #ffc107b0;
+    color: #f0ce9e;
     position:fixed;
     bottom: 0px;
     height: 8%;
@@ -244,18 +206,10 @@ footer {
 }
 
 .navbar-toggler {
-    border-color: #ffc107b0;
+    border-color: #f0ce9e;
 }
 
 img {
     border-radius: 10px;
     height: 70vh;
-}
-
-#column-right {
-    padding: 5%;
-}
-
-#column-left {
-    margin-left: 20%;
 }
