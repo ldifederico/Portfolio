@@ -6,13 +6,12 @@ This project was designed as an outlet to showcase my future works. My portfolio
 
 The applicatication will deploy by selecting the following link, https://ldifederico.github.io/ldifederico/. The window will appear as shown below.
 
-![Image of Screen Shot](https://raw.githubusercontent.com/ldifederico/Password-Generator/master/screenshot.png)
-
 **Methodology**
 
 **Credits**
 
-Foundation was used to create a responsive profile and add styling. 
+Bootstrap was used to create a responsive profile and add styling. 
+Background image accessible via www.pexels.com.
 
 **License**
 
