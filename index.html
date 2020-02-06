@@ -1,79 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
-  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Prompt:300&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/581e33120b.js" crossorigin="anonymous"></script>
-  <title>Linda Di Federico</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Prompt:300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/581e33120b.js" crossorigin="anonymous"></script>
+    <title>Linda Di Federico</title>
 </head>
-
-<body background="./assets/images/background.jpg">
-  
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="header">
-        <a class="navbar-brand" style="color:#f0ce9e; font-size: x-large;">Linda Di Federico</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" style="color: #79afea; float: left;">Linda Di Federico</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-          
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-            </ul>
+        <div class="collapse flex-row-reverse navbar-collapse" id="navbarNavAltMarkup" style="float: right;">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#about">About Me</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
+                <a class="nav-item nav-link" href="#works">Portfolio</a>
+                <a class="nav-item nav-link" href="#carouselExampleIndicators">Resume</a>
+            <div>
         </div>
     </nav>
-
-    <div class="row">
-        <div class="about-the-author">
-                <!-- <div class="small-12 medium-4 columns" id="column-left">
-                    <div class="author-image">
-                        <img src="./assets/images/profilePicture.png">
-                    </div>      
-                </div> -->
-            
-                <div class="small-12 medium-8 columns" id="column-right">
-                    <p>Hi.</p>
-                    <h4 class="separator-left">I'm Linda Di Federico.</h4>
-                    <p>I am a data analyst based in Toronto, Canada.</p>
-                    <br>
-                    <p>I find trends in big data sets.</p>
-                    <br>
-                    <div class="button-hover-reveal-wrapper">
-                        <label>Still interested?</label>
-                        <a href="./L Di Federico Resume.pdf" class="button-hover-reveal">Download my resume.</a>
-                    </div>        
+    <div class="card mb-3 main" id="about" style="max-width: 900px;">
+        <div class="row no-gutters" id="page-row">
+            <div class="col-md-5" style="width: auto;">
+                <img src="./assets/images/profilePicture.png" class="card-img" alt="Lin Di Fed" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-6" style="width: auto;">
+                <div class="card-body">
+                    <p class="card-text">
+                        <p>Hi.</p>
+                        <br>
+                        <h3 class="separator-left">I'm Linda Di Federico.</h3>
+                        <p>I am a data analyst based in Toronto, Canada.</p>
+                        <br>
+                        <p>I find trends in big data sets.</p>
+                        <br>
+                        <div class="button-hover-reveal-wrapper">
+                            <label>Still interested?</label>
+                            <a href="https://github.com/ldifederico" class="button-hover-reveal">Check out my Git Profile.</a>
+                        </div>  
+                    </p>
                 </div>
-        </div>  
+            </div>
+        </div>
     </div>
-
-        <footer class="social-footer">
-            <div class="social-footer-left">
-                <p style="font-size: x-small;">Copyright &copy;</p>
+    <div class="card main" id="contact">
+        <div class="contact-us">
+            <h1 class="contact-us-header">Contact Me</h1>                          
+            <ul class="contact-us-list">
+                <li class="address">Toronto, Canada</li>
+                <li class="email"><a href="mailto:">difedericolinda@gmail.com</a></li>
+                <li class="phone">+1 647.521.9728</li>
+            </ul> 
+        </div>                   
+    </div>
+    <div class="main" id="works">
+        <div class="row" id="page-row" style="width: 100vw;">
+            <div class="portfolio">
+                <div class="card-deck card-product-hover">         
+                    <h1 class="card-img-top">Latest Works</h1>
+                    <div class="card" id="work">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="./assets/images/screenshotOfColeague.png" alt="picture of CoLeague app" id="project" style="width:250px;height:250px;">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>co<strong>league</strong></h2> 
+                                    <p style="font-size: smaller;">A football application that promotes teambuilding among colleagues. CoLEAGUE combines the friendly competition instilled within fantasy leagues with the excitement of sports betting. Colleagues place individual bets on English Premier League Teams to compete against one another.</p> 
+                                    <!-- <p style="font-size: smaller;">A sample guest account if authentication is necessary</p> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-product-hover-icons">
+                            <a href="https://github.com/ldifederico/Fantasy-League" id="icon"><i class="fas fa-code"></i></a>
+                            <a href="https://coleagueapp.herokuapp.com/" id="icon"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="card" id="work">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="./assets/images/screenshotOfBookshelf.png" alt="picture of Bookshelf app" id="project" style="width:250px;height:250px;">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Bookshelf</h2> 
+                                    <p style="font-size: smaller;">An application that allows the user to search for a desired book title, author or genre to find information on their search and recommendations of similar books. The user is given the option to save the book to their personal bookshelf or find the nearest library to borrow the book.</p> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-product-hover-icons">
+                            <a href="https://github.com/kevin-on-davis/KLIP_Project" id="icon"><i class="fas fa-code"></i></a>
+                            <a href="https://kevin-on-davis.github.io/KLIP_Project/" id="icon"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="card" id="work">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="./assets/images/screenshotOfWorkoutPlanner.png" alt="picture of Bookshelf app" id="project" style="width:250px;height:250px;">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Workout Tracker</h2> 
+                                    <p style="font-size: smaller;">An application that allows the user to view, create and add exercises to a workout plan. The application uses a Mongo database with a Mongoose schema and handles routes with Express.</p> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-product-hover-icons">
+                            <a href="https://github.com/ldifederico/Workout-Tracker" id="icon"><i class="fas fa-code"></i></a>
+                            <a href="https://sheltered-peak-27415.herokuapp.com/" id="icon"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="social-footer-icons">
-                <div class="rounded-social-buttons">
-                    <a class="social-button linkedin" href="https://linkedin.com/in/linda-maria-di-federico"></a>
-                    <a class="social-button google-plus" href="https://mail.google.com/mail/u/difedericolinda@gmail.com"></a>
-                    <a class="social-button github" href="https://github.com/ldifederico"></a>
-                </div>        
+        </div>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="education">
+                    <div class="card" style="border: none; background-color: #ffffffc7; border-radius: 10px;">
+                        <div class="card-body-resume">
+                            <h2 class="card-title">Education</h2>
+                            <h5 class="card-subtitle">Certificate in Full Stack Web Development</h5>
+                            <h6 class="card-text">University of Toronto</h6>
+                            <h6>September 2019 –  December 2019</h6>
+                            <br>
+                            <h5 class="card-subtitle">School of Continuing Studies</h5>
+                            <h6 class="card-text">Queen’s University</h6>
+                            <h6>September 2018 –  August 2019</h6>
+                            <br>
+                            <h5 class="card-subtitle">Bachelor of Science (Honours) in Environmental Sciences</h5>
+                            <h6 class="card-text">Queen’s University</h6>
+                            <h6>September 2013 –  April 2017</h6>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </footer>  
+            <div class="carousel-item">
+                <div class="jobs">
+                    <div class="card" style="border: none; background-color: #ffffffc7; border-radius: 10px;">
+                        <div class="card-body-resume">
+                            <h2 class="card-title">Work Experience</h2>
+                            <h5 class="card-subtitle">Air Quality Scientist</h5>
+                            <h6  class="card-text">Ontario’s Ministry of the Environment and Climate Change</h6>
+                            <h6>June 2017 –  August 2018</h6>
+                            <h6>Collaborated with academic and federal institutions to compile a near-road air monitoring report. Simultaneously co-authored a manuscript discussing the concentrations of metals in the air in the near-road environment at varying locations across the Greater Toronto Hamilton Area. Presented research to large audiences from diverse fields.</h6>
+                            <br>
+                            <h5 class="card-subtitle">Research Assistant</h5>
+                            <h6 class="card-text">Ontario’s Ministry of the Environment and Climate Change</h7 class="card-text">
+                            <h6>May 2016 –  June 2017</h6>
+                            <h6>Completed the chapter on ozone trends in Canada and the United States for the 2016 Air Quality Report, wrote a proposal for the federal government advising reconsideration of the current particulate matter standards, and wrote a paper on the dispersion of ultrafine particulate matter in the near-road environment.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="publications">
+                    <div class="card" style="border: none; background-color: #ffffffc7; border-radius: 10px;">
+                        <div class="card-body-resume">
+                            <h2 class="card-title">Publications</h2>
+                            <h5 class="card-subtitle">Heavy metals in the near-road environment: Results of semi-continuous monitoring of ambient particulate matter in the greater Toronto and Hamilton area (2019). Atmospheric Environment: X, 1, 100005. <a href="https://www.sciencedirect.com/science/article/pii/S2590162119300012" id="icon"><i class="fas fa-link" style="color: #79afea"></i></a></h5>                            
+                            <br>
+                            <h5 class="card-subtitle">Evaluation of a passive sampling method for long-term continuous monitoring of volatile organic compounds in urban environments (2018). Environmental science & technology, 52 (18), 10580-10589. <a href="https://pubs.acs.org/doi/10.1021/acs.est.8b02792" id="icon"><i class="fas fa-link" style="color: #79afea"></i></a></h5>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="skills">
+                    <div class="card" style="border: none; background-color: #ffffffc7; border-radius: 10px;">
+                        <div class="card-body-resume">
+                            <h2 class="card-title">Skills</h2>
+                            <h5 class="card-subtitle"><strong>Languages: </strong>SQL, HTML/CSS, JavaScript, JSON</h5>
+                            <br>
+                            <h5 class="card-subtitle"><strong>Databases: </strong>MySQL, MongoDB</h5>
+                            <br>
+                            <h5 class="card-subtitle"><strong>Other: </strong>Heroku, Git, Microsoft Office Suite, ArcGIS, Grapher</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true" style="width: 40px; height: 40px; color: white"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" style="width: 40px; height: 40px; color: white"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <ol class="carousel-indicators" style="position: relative; padding-top: 15px;">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="width: 80px; height: 10px;"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" style="width: 80px; height: 10px;"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" style="width: 80px; height: 10px;"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3" style="width: 80px; height: 10px;"></li>
+        </ol>
+    </div>
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <div class="social-footer-icons">
+            <div class="rounded-social-buttons">
+                <a class="social-button linkedin" href="https://linkedin.com/in/linda-maria-di-federico"></a>
+                <a class="social-button google-plus" href="https://mail.google.com/mail/u/difedericolinda@gmail.com"></a>
+                <a class="social-button github" href="https://github.com/ldifederico"></a>
+            </div>        
+        </div>
+        <div class="navigation row mx-md-n2">
+            <a class="social-button col px-md-2" onclick="topFunction()" id="myTopBtn" title="Go to top"><i class="fas fa-angle-up"></i></a>
+            <a class="social-button col px-md-2" onclick="downFunction()" id="myDownBtn" title="Go to next page"><i class="fas fa-angle-down"></i></a>
+        </div>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
+    <script>
+        var myTopButton = document.getElementById("myTopBtn");
+        var myDownButton = document.getElementById("myDownBtn");
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="script.js"></script> 
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            myTopButton.style.display = "block";
+          } else {
+            myTopButton.style.display = "none";
+          }
+          if (document.body.scrollTop > 2200 || document.documentElement.scrollTop > 2200) {
+            myDownButton.style.display = "none";
+          } else {
+            myDownButton.style.display = "block";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+
+        function downFunction() {
+            var y = event.pageY;
+            if (y < 1000) {
+                var contact = document.getElementById("contact");
+                contact.scrollIntoView();
+            } if (y > 1000 && y < 2000 ) {
+                var works = document.getElementById("works");
+                works.scrollIntoView();
+            }  if (y > 2000) {
+                var resume = document.getElementById("carouselExampleIndicators");
+                resume.scrollIntoView();
+            }
+        };
+    </script>
 </body>
 </html>
